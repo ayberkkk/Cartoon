@@ -1,0 +1,150 @@
+#prices {
+    padding: 270px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+#prices .head {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#prices .head p {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#prices .head p span {
+    color: #ff7657;
+}
+
+#prices .box {
+    border: 2px solid;
+    padding: 35px;
+    background-color: #161616;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#prices .prices-box {
+    padding: 0px;
+    height: 100%;
+}
+
+#prices .prices-item {
+    border-color: rgba(0, 0, 0, 0.03) !important;
+}
+
+#prices .prices-information {
+    color: #fff;
+}
+
+#prices .prices-content {
+    margin-top: 25px;
+}
+
+#prices .price-dolar-month {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff7657;
+}
+
+#prices .price-dolar {
+    font-size: 42px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#prices .price-ul {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+}
+
+#prices .prices-item {
+    -webkit-box-shadow: 42px 38px 42px -38px rgb(0 0 0 / 58%);
+    -moz-box-shadow: 42px 38px 42px -38px rgba(0, 0, 0, .58);
+    box-shadow: 42px 38px 42px -38px rgb(0 0 0 / 58%);
+}
+
+#prices .prices-box a {
+    border: 6px solid transparent !important;
+}
+
+#prices .prices-box a:hover {
+    border: 6px solid #ff7657 !important;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#prices .waveContent svg {
+    height: 100%;
+    width: 130%;
+    left: -30%;
+    position: absolute;
+}
+
+#prices .prices-btn {
+    border: 1px solid transparent;
+    font-size: 15px;
+    line-height: 35px;
+    color: black;
+    background-color: #fff;
+}
+
+#prices .prices-btn:hover {
+    background-color: #ff7657 !important;
+}
+
+@media screen and (max-width:992px) {
+    #prices {
+        padding: 0px;
+    }
+
+    #prices .prices-box {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #prices .head {
+        margin-bottom: 15px
+    }
+
+    #prices .head p {
+        font-weight: 600;
+    }
+
+    #prices .price-dolar-month {
+        font-size: 15px;
+    }
+
+    #prices .price-dolar {
+        font-size: 25px;
+    }
+
+    #prices .box {
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    #prices .price-ul {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+    #prices {
+        padding: 80px 0px 80px;
+    }
+}

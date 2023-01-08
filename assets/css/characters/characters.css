@@ -1,0 +1,114 @@
+#characters {
+    padding: 270px;
+    padding-top: 0px;
+}
+
+#characters .head {
+    text-align: center;
+    margin-bottom: 45px t-center text mb45 col-sm-mb15
+}
+
+#characters .head p {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#characters .head p span {
+    color: #ff7657;
+}
+
+#characters .about-title {
+    font-size: 25px;
+    font-weight: 800;
+    color: #ff7657;
+}
+
+#characters .about-information {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#characters .read-btn {
+    border: 1px solid #ff7657;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+#characters .read-btn:hover {
+    border: 1px solid transparent;
+    background-color: #ff7657 !important;
+    color: white;
+}
+
+#characters .clear {
+    margin-top: 50px;
+}
+
+#characters .progress-content {
+    width: 50%;
+}
+
+#characters .progress-bar {
+    background-color: #ff7657 !important;
+}
+
+#characters .progress-title {
+    color: #fff;
+}
+
+@media screen and (min-width:992px) {
+    #characters .about-img {
+        background: #151515;
+        -webkit-box-shadow: 0 31px 35px rgb(0 0 0 / 10%);
+        box-shadow: 0 31px 35px rgb(0 0 0 / 10%);
+        border-radius: 10px;
+    }
+
+    #characters .about-img img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        transition: all linear .3s;
+    }
+
+    #characters .about-img:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    #characters {
+        padding:0px;
+        padding-top: 20px;
+    }
+
+    #characters .head {
+        margin-bottom: 15px
+    }
+
+    #characters .head p {
+        font-weight: 6s00;
+    }
+
+    #characters .read-btn {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    #characters .progress-content {
+        width: 100%;
+    }
+}

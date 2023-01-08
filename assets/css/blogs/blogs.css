@@ -1,0 +1,152 @@
+#blogs {
+    padding: 270px;
+}
+
+#blogs .head {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#blogs .head p {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#blogs .owl-prev {
+    display: none;
+}
+
+#blogs .owl-next {
+    display: none;
+}
+
+#blogs .item .box {
+    background-color: #161616;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, .1) !important;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    display: block;
+    background-color: #161616;
+}
+
+#blogs .blog-img {
+    padding-top: 0px !important;
+}
+
+#blogs .blog-head {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    padding: 35px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+#blogs .blog-text {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 15px;
+    padding: 35px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+#blogs .head p span {
+    color: #ff7657;
+}
+
+#blogs .input-group {
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+#blogs input {
+    color: rgb(255, 251, 251);
+    background: rgb(21, 21, 21);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(21, 21, 21);
+    border-image: initial;
+    width: 75%;
+}
+
+#blogs .icon {
+    font-size: 18px;
+}
+
+#blogs::placeholder {
+    color: #fff;
+}
+
+#blogs textarea {
+    color: rgb(255, 251, 251);
+    background: rgb(21, 21, 21);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(21, 21, 21);
+    border-image: initial;
+    width: 450px !important;
+    height: 90px;
+    min-height: 90px !important;
+    max-height: 90px !important;
+
+}
+
+#blogs .input-group-text {
+    background: rgb(21, 21, 21);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(21, 21, 21);
+    border-image: initial;
+    color: #ff7657;
+}
+
+#blogs .hashtags {
+    margin-top: 30px;
+}
+
+#blogs .hashtags h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#blogs .hashtags-box {
+    border: 1px solid transparent;
+    background: rgb(21, 21, 21);
+    color: rgb(120, 120, 120);
+    line-height: 35px;
+    font-size: 15px;
+    padding: 6px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#blogs .hashtags-box a {
+    padding: 6px;
+}
+
+@media screen and (max-width:992px) {
+    #blogs {
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    #blogs .head {
+        margin-bottom: 15px
+    }
+
+    #blogs .head p {
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+    #blogs {
+        padding: 80px 0px 80px;
+    }
+}

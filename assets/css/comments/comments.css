@@ -1,0 +1,124 @@
+#comments {
+    padding: 270px;
+    padding-top: 0px;
+    padding-bottom: 65px;
+}
+
+#comments .head {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#comments .head p {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#comments .head p span {
+    color: #ff7657;
+}
+
+#comments .item .box {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    display: block;
+    padding: 50px 0 50px 0;
+    background-color: #161616;
+}
+
+#comments .col {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+#comments .col .comments-user {
+    width: 50%;
+}
+
+#comments .col .comments-user .comments-userName {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #fff;
+    opacity: 0.90;
+}
+
+#comments .col .comments-user .comments-userJob {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #ff7657;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+#comments .col .comments-user .comments-userDate {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.90;
+    margin-top: 10px;
+}
+
+#comments .col .comments-img {
+    width: 50%;
+}
+
+#comments .col .comments-img img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 50px;
+    float: right;
+}
+
+#comments .comments-text {
+    font-size: 18px;
+    line-height: 22px;
+    border-top: 1px solid;
+    border-color: rgba(0, 0, 0, .1) !important;
+    color: #fff;
+    padding: 0px 50px 0 50px;
+}
+
+#comments .star {
+    margin-top: 15px;
+}
+
+#comments .star .icon-star {
+    color: #ff7657;
+}
+
+#comments .owl-next,
+#comments .owl-prev {
+    display: none;
+}
+
+
+@media screen and (max-width:992px) {
+    #comments {
+        padding: 0px;
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #comments .head {
+        margin-bottom: 15px
+    }
+
+    #comments .head p {
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+    #comments {
+        padding: 80px 0px 80px;
+    }
+}

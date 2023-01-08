@@ -1,0 +1,197 @@
+#feature {
+    padding: 140px 0;
+}
+
+#feature .head {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#feature .head p {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#feature .head p span {
+    color: #ff7657;
+}
+
+#feature .box,
+.box2 {
+    margin-bottom: 30px;
+}
+
+#feature .box a {
+    text-align: right;
+    background-color: #161616;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, .1) !important;
+    box-shadow: none;
+    outline: none;
+    overflow: hidden;
+    display: block;
+}
+
+#feature .box2 a {
+    text-align: left;
+    background-color: #161616;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, .1) !important;
+    box-shadow: none;
+    outline: none;
+    overflow: hidden;
+    display: block;
+}
+
+#feature .box,
+.box2 a .row {
+    margin: 0;
+}
+
+#feature .feature-box-title {
+    margin-top: 35px;
+    padding: 25px;
+}
+
+#feature .feature-box-title .feature-box-title-content {
+    width: 100%;
+}
+
+#feature .over-i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background: #f8615a;
+}
+
+#feature .icon {
+    display: inline-block;
+    font-size: 35px;
+    color: #fff;
+}
+
+#feature .boxTitle {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #ff7657;
+    margin-top: 10px;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+#feature .boxInformation {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+#feature .read-more-btn {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px;
+    color: #ff7657;
+}
+
+@media screen and (max-width:992px) {
+    #feature {
+        padding-bottom: 30px;
+    }
+
+    #feature .head {
+        margin-bottom: 15px
+    }
+
+    #feature .head p {
+        font-weight: 600;
+    }
+
+    #feature .box,
+    .box2 {
+        margin-bottom: 0px;
+        padding: 5px;
+    }
+
+    #feature .box a {
+        text-align: center !important;
+        background-color: #161616;
+        padding-bottom: 20px;
+    }
+
+    #feature .box2 a {
+        text-align: center !important;
+        background-color: #161616;
+    }
+
+    #feature .feature-box-title {
+        margin-top: 15px;
+    }
+
+    #feature .boxTitle {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #feature .boxInformation {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #feature .read-more-btn {
+        font-size: 14px;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1500px) {
+    #feature {
+        padding: 90px 0 90px;
+    }
+
+    .design-layer::before {
+        top: 321px;
+        right: 0;
+        width: 170px;
+        height: 140px;
+    }
+    .design-layer::after {
+        top: 276;
+        right: 0;
+        width: 170px;
+        height: 140px;
+    }
+
+    #feature .feature-box-title {
+        margin-top: 20px;
+        padding: 25px;
+    }
+
+    #feature .boxInformation {
+        line-height: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #feature .read-more-btn {
+        padding: 25px;
+    }
+}

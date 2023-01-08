@@ -1,0 +1,85 @@
+#footer {
+    padding: 120px 0px 85px;
+    background: rgb(21, 21, 21);
+    border-bottom: 1px solid rgb(21, 21, 21);
+    border-top: 2px dashed rgb(34, 34, 34);
+}
+
+#footer .f-logo {
+    font-size: 27px;
+    color: rgb(255, 118, 87);
+}
+
+#footer .f-logo p {
+    color: rgb(120, 120, 120);
+    padding-top: 10px;
+    line-height: 29px;
+    font-size: 16px;
+    padding-bottom: 13px;
+}
+
+#footer .footer-social i {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: rgb(255, 118, 87);
+    font-size: 20px;
+    margin-right: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-radius: 50%;
+    background: white;
+    transition: all 0.3s linear 0s;
+}
+
+#footer .footer-social i:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 118, 87);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 118, 87);
+    border-image: initial;
+}
+
+#footer .links h3 {
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 4px;
+}
+
+#footer .links ul li a {
+    color: rgb(120, 120, 120);
+    text-transform: capitalize;
+    line-height: 38px;
+    font-size: 16px;
+    transition: all 0.3s linear 0s;
+}
+
+#footer-btm {
+    background: rgb(22, 22, 22);
+    border-top: 2px dashed rgb(34, 34, 34);
+    padding: 25px 0px;
+}
+
+.fop-btm h2 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: pr;
+    margin-bottom: 0px;
+}
+
+.fop-btm a {
+    color: rgb(255, 118, 87);
+    font-family: pb;
+}
+
+@media screen and (max-width:992px) {
+    #footer {
+        padding-top: 0px;
+    }
+}
