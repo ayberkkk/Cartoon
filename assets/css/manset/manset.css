@@ -27,7 +27,7 @@
     line-height: 20px;
     font-weight: 400;
     margin-top: 15px;
-    color: #fff;
+    color: #161616;
 }
 
 #manset .bannerMobile {
@@ -52,7 +52,7 @@
     line-height: 40px;
     font-size: 18px;
     padding: 10px;
-    color: #fff;
+    color: #161616;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
@@ -180,8 +180,20 @@
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1500px){
+@media screen and (min-width:992px) and (max-width:1500px) {
     #manset {
         padding: 100px 0 100px;
     }
 }
+
+
+/** MANSET DARK MODE **/
+.dark #manset .manset-information {
+    color: #fff;
+}
+
+.dark #manset .browse-btn {
+    color: #fff;
+}
+
+/** MANSET DARK MODE END**/

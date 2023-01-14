@@ -55,14 +55,14 @@
                                     <img class="img-fluid" style="width:90px;height:90px" width="90" height="90px" src="assets/img/products/p1.jpg" style>
                                 </div>
                                 <div>
-                                    <p class="fs25 fw8 white mt10">Pirate II</p>
+                                    <p class="prodcuts-text">Pirate II</p>
                                 </div>
                                 <div class="watch-link">
                                     <a class="fs18 fw4 colored2">Watch Now</a>
                                 </div>
                                 <hr>
                                 <span class="mt25 mb25 block pl20 pr20">
-                                    <div class="left p5 white">
+                                    <div class="free-text">
                                         FREE
                                     </div>
                                     <div class="right p5">
@@ -83,14 +83,14 @@
                                     <img class="img-fluid" style="width:90px; height:90px" width="90" height="90px" src="assets/img/products/p2.jpg" style>
                                 </div>
                                 <div>
-                                    <p class="fs25 fw8 white mt10">Pirate II</p>
+                                    <p class="prodcuts-text">Pirate II</p>
                                 </div>
                                 <div class="watch-link">
                                     <a class="fs18 fw4 colored2">Watch Now</a>
                                 </div>
                                 <hr>
                                 <span class="mt25 mb25 block pl20 pr20">
-                                    <div class="left p5 white">
+                                    <div class="free-text">
                                         FREE
                                     </div>
                                     <div class="right p5">
@@ -111,14 +111,14 @@
                                     <img class="img-fluid" style="width:90px; height:90px" width="90" height="90px" src="assets/img/products/p3.jpg" style>
                                 </div>
                                 <div>
-                                    <p class="fs25 fw8 white mt10">Pirate II</p>
+                                    <p class="prodcuts-text">Pirate II</p>
                                 </div>
                                 <div class="watch-link">
                                     <a class="fs18 fw4 colored2">Watch Now</a>
                                 </div>
                                 <hr>
                                 <span class="mt25 mb25 block pl20 pr20">
-                                    <div class="left p5 white">
+                                    <div class="free-text">
                                         FREE
                                     </div>
                                     <div class="right p5">
@@ -139,14 +139,14 @@
                                     <img class="img-fluid" style="width:90px; height:90px" width="90" height="90px" src="assets/img/products/p4.jpg" style>
                                 </div>
                                 <div>
-                                    <p class="fs25 fw8 white mt10">Pirate II</p>
+                                    <p class="prodcuts-text">Pirate II</p>
                                 </div>
                                 <div class="watch-link">
                                     <a class="fs18 fw4 colored2">Watch Now</a>
                                 </div>
                                 <hr>
                                 <span class="mt25 mb25 block pl20 pr20">
-                                    <div class="left p5 white">
+                                    <div class="free-text">
                                         FREE
                                     </div>
                                     <div class="right p5">
@@ -167,14 +167,14 @@
                                     <img class="img-fluid" style="width:90px; height:90px" width="90" height="90px" src="assets/img/products/p5.jpg" style>
                                 </div>
                                 <div>
-                                    <p class="fs25 fw8 white mt10">Pirate II</p>
+                                    <p class="prodcuts-text">Pirate II</p>
                                 </div>
                                 <div class="watch-link">
                                     <a class="fs18 fw4 colored2">Watch Now</a>
                                 </div>
                                 <hr>
                                 <span class="mt25 mb25 block pl20 pr20">
-                                    <div class="left p5 white">
+                                    <div class="free-text">
                                         FREE
                                     </div>
                                     <div class="right p5">
@@ -195,14 +195,14 @@
                                     <img class="img-fluid" style="width:90px; height:90px" width="90" height="90px" src="assets/img/products/p1.jpg" style>
                                 </div>
                                 <div>
-                                    <p class="fs25 fw8 white mt10">Pirate II</p>
+                                    <p class="prodcuts-text">Pirate II</p>
                                 </div>
                                 <div class="watch-link">
                                     <a class="fs18 fw4 colored2">Watch Now</a>
                                 </div>
                                 <hr>
                                 <span class="mt25 mb25 block pl20 pr20">
-                                    <div class="left p5 white">
+                                    <div class="free-text">
                                         FREE
                                     </div>
                                     <div class="right p5">

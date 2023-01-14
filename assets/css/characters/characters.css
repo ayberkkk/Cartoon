@@ -12,7 +12,7 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
-    color: #fff;
+    color: #111;
 }
 
 #characters .head p span {
@@ -28,7 +28,7 @@
 #characters .about-information {
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: #111;
 }
 
 #characters .read-btn {
@@ -36,7 +36,7 @@
     line-height: 40px;
     font-size: 18px;
     padding: 10px;
-    color: white;
+    color: #ff7657;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
@@ -63,7 +63,11 @@
 }
 
 #characters .progress-title {
-    color: #fff;
+    color: #111;
+}
+
+#characters .counter-main {
+    color: #111;
 }
 
 @media screen and (min-width:992px) {
@@ -91,7 +95,7 @@
 
 @media screen and (max-width:992px) {
     #characters {
-        padding:0px;
+        padding: 0px;
         padding-top: 20px;
     }
 
@@ -112,3 +116,36 @@
         width: 100%;
     }
 }
+
+/** PRODUCTS DARK MODE **/
+.dark #characters .head p {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.dark #characters .head p span {
+    color: #ff7657;
+}
+
+.dark #characters .about-information {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.dark #characters .read-btn {
+    color: #fff;
+    transition: all 0.2s ease-out;
+}
+
+.dark #characters .progress-title {
+    color: #fff;
+}
+
+.dark #characters .counter-main {
+    color: #fff;
+}
+
+/** PRODUCTS DARK MODE END**/

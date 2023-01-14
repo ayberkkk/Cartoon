@@ -13,7 +13,7 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
-    color: #fff;
+    color: #111;
 }
 
 #comments .head p span {
@@ -26,7 +26,7 @@
     box-shadow: none;
     display: block;
     padding: 50px 0 50px 0;
-    background-color: #161616;
+    background-color: #f8f8f8;
 }
 
 #comments .col {
@@ -43,7 +43,7 @@
     font-size: 20px;
     line-height: 20px;
     font-weight: 700;
-    color: #fff;
+    color: #111;
     opacity: 0.90;
 }
 
@@ -60,7 +60,7 @@
     font-size: 13px;
     line-height: 13px;
     font-weight: 300;
-    color: #fff;
+    color: #111;
     opacity: 0.90;
     margin-top: 10px;
 }
@@ -80,9 +80,7 @@
 #comments .comments-text {
     font-size: 18px;
     line-height: 22px;
-    border-top: 1px solid;
-    border-color: rgba(0, 0, 0, .1) !important;
-    color: #fff;
+    color: #111;
     padding: 0px 50px 0 50px;
 }
 
@@ -122,3 +120,30 @@
         padding: 80px 0px 80px;
     }
 }
+
+/** PRICES DARK MODE **/
+.dark #comments .head p {
+    color: #fff;
+}
+
+.dark #comments .head p span {
+    color: #ff7657;
+}
+
+.dark #comments .item .box {
+    background-color: #161616;
+}
+
+.dark #comments .col .comments-user .comments-userName {
+    color: #fff;
+}
+
+.dark #comments .col .comments-user .comments-userDate {
+    color: #fff;
+}
+
+.dark #comments .comments-text {
+    color: #fff;
+}
+
+/** PRICES DARK MODE END **/

@@ -11,7 +11,7 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
-    color: #fff;
+    color: #111;
 }
 
 #contact .head p span {
@@ -21,7 +21,7 @@
 .accordion-list .accordion-item .accordion-button {
     font-size: 18px !important;
     color: #ff7657 !important;
-    background-color: #161616;
+    background-color: #f8f8f8;
 }
 
 .accordion-button::after {
@@ -29,11 +29,11 @@
 }
 
 .accordion-item {
-    background-color: #161616;
+    background-color: #f8f8f8;
 }
 
 .accordion-body {
-    color: #fff;
+    color: #111;
 }
 
 #contact .input-group {
@@ -42,11 +42,11 @@
 }
 
 #contact input {
-    color: rgb(255, 251, 251);
-    background: rgb(21, 21, 21);
+    color: #fff;
+    background: #f8f8f8;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(21, 21, 21);
+    border-color: #f8f8f8;
     border-image: initial;
     width: 87%;
 }
@@ -56,28 +56,27 @@
 }
 
 #contact ::placeholder {
-    color: #fff;
+    color: #111;
 }
 
 #contact textarea {
-    color: rgb(255, 251, 251);
-    background: rgb(21, 21, 21);
+    color: #111;
+    background: #f8f8f8;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(21, 21, 21);
+    border-color: #f8f8f8;
     border-image: initial;
     width: 450px !important;
     height: 90px;
     min-height: 90px !important;
     max-height: 90px !important;
-
 }
 
 #contact .input-group-text {
-    background: rgb(21, 21, 21);
+    background: #f8f8f8;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(21, 21, 21);
+    border-color: #f8f8f8;
     border-image: initial;
     color: #ff7657;
 }
@@ -87,7 +86,7 @@
     line-height: 30px;
     font-size: 18px;
     padding: 10px;
-    color: white;
+    color: #ff7657;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
@@ -125,3 +124,63 @@
         padding: 80px 0px 80px;
     }
 }
+
+/** CONTACT DARK MODE **/
+.dark #contact .head p {
+    color: #fff;
+}
+
+.dark #contact .accordion-list .accordion-item .accordion-button {
+    font-size: 18px !important;
+    color: #ff7657 !important;
+    background-color: #161616;
+}
+
+.dark #contact .accordion-item {
+    background-color: #161616;
+}
+
+.dark .accordion-body {
+    color: #fff;
+}
+
+.dark #contact input {
+    color: rgb(255, 251, 251);
+    background: rgb(21, 21, 21);
+    border-color: rgb(21, 21, 21);
+}
+
+.dark #contact ::placeholder {
+    color: #fff;
+}
+
+.dark #contact textarea {
+    color: rgb(255, 251, 251);
+    background: rgb(21, 21, 21);
+    border-color: rgb(21, 21, 21);
+
+}
+
+.dark #contact .input-group-text {
+    background: rgb(21, 21, 21);
+    border-color: rgb(21, 21, 21);
+    color: #ff7657;
+}
+
+.dark #contact textarea {
+    color: rgb(255, 251, 251);
+    background: rgb(21, 21, 21);
+    border-color: rgb(21, 21, 21);
+}
+
+.dark #contact .submit-btn {
+    border: 1px solid #ff7657;
+    color: white;
+}
+
+.dark #contact .submit-btn {
+    border: 1px solid #ff7657;
+    color: white;
+}
+
+/** CONTACT DARK MODE END**/

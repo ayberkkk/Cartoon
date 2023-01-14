@@ -35,7 +35,7 @@
                         <div class="progress-bar" role="progressbar" style="width: 72%;" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
-                <div class="row counter-main white">
+                <div class="row counter-main">
                     <div class="counter-1 col-4 col-lg-4 col-sm-3 col-md-4">
                         <div class="chart" data-percent="75">
                             <canvas height="100" width="100" style="height: 80px; width: 80px;"></canvas>

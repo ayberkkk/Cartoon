@@ -11,21 +11,21 @@
                 <div class="team-img">
                     <img class="img-fluid" style="width:50%" src="assets/img/team/t1.jpg">
                 </div>
-                <div class="team-name">Ayberk</div>
+                <div class="team-name">John Doe</div>
                 <div class="team-job">CEO Founder</div>
             </div>
             <div class="col-lg-4 col-6">
                 <div class="team-img">
                     <img class="img-fluid" style="width:50%" src="assets/img/team/t2.jpg">
                 </div>
-                <div class="team-name">Ayberk</div>
+                <div class="team-name">Carl Joanson</div>
                 <div class="team-job">Senior Designer</div>
             </div>
             <div class="col-lg-4 col-6">
                 <div class="team-img">
                     <img class="img-fluid" style="width:50%" src="assets/img/team/t3.jpg">
                 </div>
-                <div class="team-name">Ayberk</div>
+                <div class="team-name">Larissa Back</div>
                 <div class="team-job">Cartoon Artist</div>
             </div>
         </div>

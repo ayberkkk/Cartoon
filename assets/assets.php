@@ -32,8 +32,6 @@
 <!-- Js End -->
 
 <!-- Style & Scripts End -->
-
-
 <!-- Config -->
 <style>
 	:root {

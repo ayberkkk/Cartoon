@@ -12,7 +12,7 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
-    color: #fff;
+    color: #111;
 }
 
 #products .head p span {
@@ -20,7 +20,7 @@
 }
 
 #products .box {
-    background-color: #161616;
+    background-color: #f8f8f8;
     border: 1px solid;
     border-color: rgba(0, 0, 0, .1) !important;
     box-shadow: none;
@@ -55,7 +55,7 @@
     font-size: 22px;
     line-height: 28px;
     font-weight: 600;
-    color: #fff;
+    color: #111;
     margin-top: 10px;
     display: -webkit-box !important;
     -webkit-line-clamp: 4;
@@ -67,7 +67,7 @@
     font-size: 18px;
     line-height: 30px;
     font-weight: 500;
-    color: #fff;
+    color: #111;
     margin-top: 15px;
     display: -webkit-box !important;
     -webkit-line-clamp: 4;
@@ -143,8 +143,21 @@
     border-radius: 50%;
 }
 
+#products .prodcuts-text {
+    color: #111;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
 #products .watch-link a:hover {
-    color: #fff !important;
+    color: #111 !important;
+}
+
+#products .free-text {
+    float: left;
+    padding: 5px;
+    color: #111;
 }
 
 @media screen and (max-width:992px) {
@@ -197,3 +210,38 @@
         margin-top: 15px;
     }
 }
+
+/** PRODUCTS DARK MODE **/
+.dark #products .head p {
+    color: #fff;
+}
+
+.dark #products .head p span {
+    color: #ff7657;
+}
+
+.dark #products .box {
+    background-color: #161616;
+}
+
+.dark #products .box .box-content-title>div {
+    color: #fff;
+}
+
+.dark #products .box .box-content-information {
+    color: #fff;
+}
+
+.dark #products .prodcuts-text {
+    color: #fff;
+}
+
+.dark #products .watch-link a:hover {
+    color: #fff !important;
+}
+
+.dark #products .free-text {
+    color: #fff;
+}
+
+/** PRODUCTS DARK MODE END**/

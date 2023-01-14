@@ -4,6 +4,9 @@
     border-bottom: 1px solid rgb(21, 21, 21);
     border-top: 2px dashed rgb(34, 34, 34);
 }
+#footer p {
+    color: #fff;
+}
 
 #footer .f-logo {
     font-size: 27px;

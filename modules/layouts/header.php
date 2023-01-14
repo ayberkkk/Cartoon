@@ -8,7 +8,7 @@
 				<div class="col-7 col-lg-2 company-logo">
 					<i class="icon icon-menu-left colored2 menuToggle"></i>
 					<a class="companyName" href="index.php">
-						Cartoon.
+						Cartoon<span>.</span>
 					</a>
 				</div>
 				<div class="col mobileMenu">
@@ -18,9 +18,9 @@
 								<ul class="row menu-ul">
 									<li class="componyName-mobil">
 										<div class="row">
-											<div class="col">
-												<a class="companyName colored2" href="index.php">
-													Cartoon.
+											<div class="col flex">
+												<a class="companyName" href="index.php">
+													Cartoon<span>.</span>
 												</a>
 											</div>
 										</div>
@@ -58,6 +58,14 @@
 											<i class="icon icon-right2"></i>Contanct
 										</a>
 									</li>
+									<li class="col-auto menu-item col-sm-hidden">
+										<input type="checkbox" class="checkbox" id="checkbox">
+										<label for="checkbox" class="label">
+											<i class="icon icon-kar fs18"></i>
+											<i class="icon icon-gunes fs18"></i>
+											<div class='ball'>
+										</label>
+									</li>
 									<!--  -->
 									<li class="mobile-contact-li">
 										<div class="row">
@@ -76,6 +84,14 @@
 									<!--  -->
 									<li class="mobile-contact-li">
 										<ul>
+											<li>
+												<input type="checkbox" class="checkbox" id="checkbox">
+												<label for="checkbox" class="label">
+													<i class="icon icon-kar fs18"></i>
+													<i class="icon icon-gunes fs18"></i>
+													<div class='ball'>
+												</label>
+											</li>
 											<li>
 												<a href="tel:+<? echo $phone ?>">
 													<i class="icon icon-phone"></i>

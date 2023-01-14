@@ -1,3 +1,51 @@
+/** HEADER DARK MODE **/
+header .dark {
+    position: sticky;
+    z-index: 100;
+    padding: 30px 0 30px 0;
+    top: 0px;
+    background-color: transparent !important;
+}
+
+.dark .sticky {
+    -webkit-box-shadow: 0 0 15px 5px rgb(0 0 0 / 8%);
+    -moz-box-shadow: 0 0 15px 5px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 15px 5px rgb(0 0 0 / 8%);
+    background-color: #161616 !important;
+}
+
+.dark .companyName {
+    color: #fff;
+    font-size: 26px;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.dark .menu-item a {
+    position: relative;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 17px;
+}
+
+.dark .menu-item a:hover {
+    text-shadow: 0 0 0.01px black;
+    color: #ff7657 !important;
+}
+
+@media screen and (max-width:992px) {
+    .dark header {
+        background-color: #161616 !important;
+    }
+
+    .dark .menu-item a {
+        color: #161616;
+    }
+}
+
+/** HEADER DARK MODE END**/
+
 header {
     position: sticky;
     z-index: 100;
@@ -10,9 +58,8 @@ header.sticky {
     -webkit-box-shadow: 0 0 15px 5px rgb(0 0 0 / 8%);
     -moz-box-shadow: 0 0 15px 5px rgba(0, 0, 0, .08);
     box-shadow: 0 0 15px 5px rgb(0 0 0 / 8%);
-    background-color: #161616 !important;
+    background-color: #f8f8f8 !important;
 }
-
 
 header .company-logo {
     display: flex;
@@ -20,11 +67,16 @@ header .company-logo {
 }
 
 header .companyName {
-    color: #fff;
+    color: #111;
     font-size: 26px;
+    font-weight: 800;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
+}
+
+header .companyName>span {
+    color: #ff7657 !important;
 }
 
 header .mobileMenu .mobileMenu-content .menu-ul .componyName-mobil {
@@ -41,13 +93,12 @@ header .menu-ul .mobile-contact-li {
 
 header .menu-item {
     padding-right: 25px;
-    border-color: rgba(0, 0, 0, .1) !important;
 }
 
 header .menu-item a {
     position: relative;
     white-space: nowrap;
-    color: #fff;
+    color: #161616;
     font-size: 17px;
 }
 
@@ -56,14 +107,13 @@ header .menu-item .drop {
 }
 
 header .menu-item a:hover {
-    text-shadow: 0 0 0.01px black;
+    text-shadow: 0 0 0.01px #dedede;
     color: #ff7657 !important;
 }
 
 header .menu-item:hover a:after {
     width: 100%;
 }
-
 
 header .menu-item a.toggle:after {
     content: "";
@@ -91,7 +141,7 @@ header .icon-right2 {
         -webkit-box-shadow: 0 0 15px 5px rgb(0 0 0 / 8%);
         -moz-box-shadow: 0 0 15px 5px rgba(0, 0, 0, .08);
         box-shadow: 0 0 15px 5px rgb(0 0 0 / 8%);
-        background-color: #161616 !important;
+        background-color: #dedede !important;
     }
 
     header .company-logo {

@@ -59,7 +59,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="fop-btm text-center">
-                    <h2>Copyright © 2020. All rights reserved by <a href="#">Animado</a></h2>
+                    <h2>Copyright © <?= date('Y') ?>. All rights reserved by <a href="#">Animado</a></h2>
                 </div>
             </div>
         </div>

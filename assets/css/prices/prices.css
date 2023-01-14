@@ -13,7 +13,7 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
-    color: #fff;
+    color: #111;
 }
 
 #prices .head p span {
@@ -23,7 +23,7 @@
 #prices .box {
     border: 2px solid;
     padding: 35px;
-    background-color: #161616;
+    background-color: #f8f8f8;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -41,7 +41,7 @@
 }
 
 #prices .prices-information {
-    color: #fff;
+    color: #111;
 }
 
 #prices .prices-content {
@@ -57,14 +57,14 @@
 #prices .price-dolar {
     font-size: 42px;
     font-weight: 800;
-    color: #fff;
+    color: #111;
 }
 
 #prices .price-ul {
     margin-top: 20px;
     text-align: left;
     font-size: 18px;
-    color: #fff;
+    color: #111;
 }
 
 #prices .prices-item {
@@ -148,3 +148,38 @@
         padding: 80px 0px 80px;
     }
 }
+
+/** PRICES DARK MODE **/
+.dark #prices .head p {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.dark #prices .head p span {
+    color: #ff7657;
+}
+
+.dark #prices .box {
+    background-color: #161616;
+}
+
+.dark #prices .prices-information {
+    color: #fff;
+}
+
+.dark #prices .price-dolar {
+    font-size: 42px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.dark #prices .price-ul {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+}
+
+/** PRICES DARK MODE END **/
